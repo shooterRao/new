@@ -92,14 +92,14 @@
 
   - react-native
   - react-navigation
-  - mobX
+  - mobx
 
 工作描述：
 
   - 独立负责用`react-navigation`**重构**该项目。由于之前用`react-native`提供的导航器`navigatior`，在安卓端性能表现非常不好（IOS 正常），部分页面跳转需要等待**3 秒**以上（在旧机型上甚至需要**5 秒**），经过优化也需要**2 秒**左右。所以决定用官方最新推荐的页面导航器`react-navigation`进行**重写底层页面跳转**代码。重写完成后，在安卓端跳转页面缩短不到**1 秒**
   - 参与了履职审核，待办提醒，在线选课，在线学习等功能的开发
   - 负责把不同项目中相同的功能模块分离出来，进行组件式开发，编写**可复用，跨平台**的 react-native 业务功能组件，这样不仅**加快了开发效率**，更便于维护
-  - 使用mobX 实现跨组件状态管理
+  - 使用`mobx`实现跨组件状态管理
   - 使用`es6、es7`重写之前用`es5`写的代码，保持代码风格的一致性，便于维护
   - 负责安卓端的签名、打包 apk、上架，以及热更新
 
@@ -125,11 +125,13 @@
 
 ## 开源项目
 
-- [react-native-fruitStore](https://github.com/shooterRao/react-native-fruitStore)：一个简而美的迷你商城 app，技术栈为 react-native + mobX + react-navigation，支持 android 和 ios 端。您可以通过这篇[技术博客](https://juejin.im/post/5a3f06cd6fb9a044fe4693bc)来了解一些细节 ---248⭐️
+- [react-native-fruitStore](https://github.com/shooterRao/react-native-fruitStore)：一个简而美的迷你商城 app，技术栈为 react-native + mobx + react-navigation，支持 android 和 ios 端。您可以通过这篇[技术博客](https://juejin.im/post/5a3f06cd6fb9a044fe4693bc)来了解一些细节 ---266⭐️
 - [create-simple-wheels](https://github.com/shooterRao/create-simple-wheels)：用原生 js 来造轮子
+- [arcgis-webpack-demo](https://github.com/shooterRao/arcgis-webpack-demo)：arcgis 融合 webpack 实现前端工程化示例
 
 ## 技术文章
 
+- [【Vue源码学习系列】解读数据响应式实现原理](http://shooterblog.site/2019/07/09/%E3%80%90Vue%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97%E3%80%91%E8%A7%A3%E8%AF%BB%E6%95%B0%E6%8D%AE%E5%93%8D%E5%BA%94%E5%BC%8F%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/)
 - [GraphQL + Apollo + Vue牛刀小试](http://shooterblog.site/2019/05/25/GraphQL%20+%20Apollo%20%E7%89%9B%E5%88%80%E5%B0%8F%E8%AF%95/)
 - [记一次系统前端底层升级总结](http://shooterblog.site/2018/11/11/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%B3%BB%E7%BB%9F%E5%89%8D%E7%AB%AF%E5%BA%95%E5%B1%82%E5%8D%87%E7%BA%A7%E6%80%BB%E7%BB%93/)
 - [Vue 实践小结(长期更新)](http://shooterblog.site/2018/11/04/Vue%E5%AE%9E%E8%B7%B5%E5%B0%8F%E7%BB%93(%E9%95%BF%E6%9C%9F%E6%9B%B4%E6%96%B0)/)
@@ -149,9 +151,9 @@
 
 # 技能清单
 
-- web开发：html/css/javaScript/typeScript/es6+/vue/react
+- web开发：html/css/javaScript/typeScript/es6+/vue/react/jQuery/sass
 - 移动开发：react-native/weex/小程序
-- 服务端开发：node.js/koa/express/graphQl/mongoDB
+- 服务端开发：node.js/koa/express/graphQl/mySQL
 - 构建工具：webpack/rollup/gulp
 - 测试框架：jest/mocha/chai
 - 版本管理：gitlab/svn
