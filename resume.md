@@ -27,9 +27,9 @@
 - 负责前端前沿技术的研究和落地，并在内部进行推广和培训
 - 担任导师，带领组内新人了解业务和前端前沿技术的探索，并在内部进行了多次技术分享
 
-### 阳江基础信息平台
+### 阳江国土基础信息平台
 
-担任角色：技术经理
+担任角色：前端开发 & 技术经理
 
 技术栈：vue、vue-router、vuex、iview、single-spa、systemjs、typeScript、rollup、docker
 
@@ -43,9 +43,9 @@
 - 解决大数据量目录树组件渲染卡顿的问题，自研树组件替代iview的tree组件
 - 使用docker部署，提供前端自动化打包部署脚本，提高项目部署效率
 
-### 实施监督评估预警管理系统(大型项目产品，代码量超10w行)
+### 国土空间规划“一张图”实施监督信息系统(大型项目产品，代码量超10w行)
 
-担任角色：前端开发(子系统负责人)
+担任角色：前端开发 & 子系统负责人
 
 技术栈：vue、vue-router、vuex、iview、scss、single-spa、systemjs、typeScript、rollup、arcgis js api4.8、jest、docker
 
@@ -63,7 +63,7 @@
 
 ### 浙江省生态修复监管系统
 
-担任角色：前端开发(子系统负责人)
+担任角色：前端开发 & 子模块负责人
 
 技术栈：vue、vue-router、vuex、iview、scss、g6
 
